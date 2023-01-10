@@ -13,3 +13,11 @@ function onsubmit(){
    }
    
 }
+//DOM Manupulation----
+// console.log(document.URL);
+// console.log(document.title);
+// console.log(document.links);
+ console.log(document.getElementById('form'));
+var a =document.getElementById('form');
+console.log(a.textContent)
+
