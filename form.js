@@ -24,3 +24,11 @@ console.log(a.textContent)
 li2.style.backgroundColor = 'green';
 form.style.fontweight = 'Bold';
 
+const collection = document.getElementsByClassName('li2');
+for (let i = 0; i < collection.length; i++) {
+   collection[i].style.backgroundColor = "red";
+ }
+ const li = document.getElementsByTagName('li');
+ li[1].style.backgroundColor='yellow'
+
+
