@@ -20,4 +20,7 @@ function onsubmit(){
  console.log(document.getElementById('form'));
 var a =document.getElementById('form');
 console.log(a.textContent)
+//form.style.backgroundColor ='green'
+li2.style.backgroundColor = 'green';
+form.style.fontweight = 'Bold';
 
