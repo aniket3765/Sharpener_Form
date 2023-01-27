@@ -35,3 +35,32 @@ for(var i =0;i<odd.length;i++){
 
 // newd.style.fontSize = "44px";
 // contain.insertBefore(newd,h1);
+
+
+// var form  = document.getElementById("addform");
+// var itemList = document.getElementById("items");
+// form.addEventListener("click",addItem);
+// itemList.addEventListener("click",remove);
+
+// function remove(e){
+    
+//   if(e.target.classList.contains("delete")){
+//     if(confirm('Are you sure')){
+//         var li= e.target.parentElement;
+//         itemList.removeChild(li);
+//     }
+//   }
+// }
+// function addItem(e){
+//   //  e.preventDefoult();
+//     var newItem = document.getElementById("items").value;
+//     var li= document.createElement( "li");
+//     li.className = "list-group-item";
+//     li.appendChild(document.createTextNode(newItem));
+//      var btn = document.createElement("button");
+//      btn.className = "btn btn-danger btn-sm float-right delete";
+//      btn.appendChild(document.createTextNode("delete"));
+//      li.appendChild(btn)
+//     itemList.appendChild(li);
+   
+// }
