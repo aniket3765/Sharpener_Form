@@ -23,3 +23,15 @@ item[1].style.color="green";
 for(var i =0;i<odd.length;i++){
  odd[i].style.backgroundColor ='green';
 }*/
+
+// var newd = document.createElement('div');
+// //console.log(newd);
+// newd.className = "hello1"
+// newd.setAttribute('title','helloD')
+// var newdText = document.createTextNode("hello world")
+// newd.appendChild(newdText);
+// var contain = document.querySelector(".container")
+// var h1 = document.querySelector(" h1")
+
+// newd.style.fontSize = "44px";
+// contain.insertBefore(newd,h1);
